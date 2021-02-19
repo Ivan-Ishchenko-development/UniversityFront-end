@@ -1,0 +1,45 @@
+*,*::after, *::before{
+    box-sizing: border-box;
+}
+a{  color: $accent;
+    text-decoration: none;
+}
+.img-responsive{
+    max-width: 100%;
+    height: auto;
+}
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.pt-10{
+    padding-top: 6rem;
+}
+.pb-10{
+    padding-bottom: 6rem;
+}
+.mb-10{
+    margin-bottom: 6rem;
+}
+.mt-10{
+    margin-top: 6rem;
+}
+.ta-l{
+    text-align: left;
+}
+
+.body-limit{
+    max-height: 100vh;
+    overflow: hidden;
+}
+@media screen and (max-width:567px){
+    html{
+        font-size: 90%;
+    }
+    
+ }
